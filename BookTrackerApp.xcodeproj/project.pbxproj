@@ -6,6 +6,14 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		CE17344F2E3A640D00552037 /*  Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE17344E2E3A640D00552037 /*  Book.swift */; };
+		CE1734512E3A643F00552037 /*  BookListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1734502E3A643F00552037 /*  BookListViewModel.swift */; };
+		CE1734532E3A646C00552037 /*  BookListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1734522E3A646C00552037 /*  BookListView.swift */; };
+		CE1734552E3A64B400552037 /*  BookDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE1734542E3A64B400552037 /*  BookDetailView.swift */; };
+		CEECED482E3AB600000A1CFA /*  EditBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEECED472E3AB600000A1CFA /*  EditBookView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		CE1734322E3A632100552037 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +35,11 @@
 		CE1734242E3A631E00552037 /* BookTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE1734312E3A632100552037 /* BookTrackerAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookTrackerAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE17343B2E3A632100552037 /* BookTrackerAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BookTrackerAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE17344E2E3A640D00552037 /*  Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Book.swift"; sourceTree = "<group>"; };
+		CE1734502E3A643F00552037 /*  BookListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " BookListViewModel.swift"; sourceTree = "<group>"; };
+		CE1734522E3A646C00552037 /*  BookListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " BookListView.swift"; sourceTree = "<group>"; };
+		CE1734542E3A64B400552037 /*  BookDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " BookDetailView.swift"; sourceTree = "<group>"; };
+		CEECED472E3AB600000A1CFA /*  EditBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " EditBookView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +88,11 @@
 		CE17341B2E3A631E00552037 = {
 			isa = PBXGroup;
 			children = (
+				CEECED472E3AB600000A1CFA /*  EditBookView.swift */,
+				CE1734542E3A64B400552037 /*  BookDetailView.swift */,
+				CE1734522E3A646C00552037 /*  BookListView.swift */,
+				CE1734502E3A643F00552037 /*  BookListViewModel.swift */,
+				CE17344E2E3A640D00552037 /*  Book.swift */,
 				CE1734262E3A631E00552037 /* BookTrackerApp */,
 				CE1734342E3A632100552037 /* BookTrackerAppTests */,
 				CE17343E2E3A632100552037 /* BookTrackerAppUITests */,
@@ -236,6 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE17344F2E3A640D00552037 /*  Book.swift in Sources */,
+				CE1734532E3A646C00552037 /*  BookListView.swift in Sources */,
+				CEECED482E3AB600000A1CFA /*  EditBookView.swift in Sources */,
+				CE1734512E3A643F00552037 /*  BookListViewModel.swift in Sources */,
+				CE1734552E3A64B400552037 /*  BookDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
